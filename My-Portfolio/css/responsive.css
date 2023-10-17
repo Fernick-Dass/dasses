@@ -1,0 +1,79 @@
+
+
+@media(max-width:767px){
+    .about-section .about-img,
+    .about-section .about-info,
+    .home-section .home-text,
+     .home-section .home-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+     }
+     .home-section .home-text{
+         order: 2;
+     }
+     .home-section .home-text{
+         text-align: center;
+     }
+     .home-section .full-screen{
+         padding: 100px 0;
+     }
+     .home-section .home-img .img-box{
+        margin-bottom: 40px;
+        max-width: 250px;
+     }
+     .effect-3{
+        margin-left: -60px;
+     }
+     .effect-4{
+         left: 15%;
+     }
+     .effect-5{
+         right: 4%;
+     }
+     .about-section .about-img{
+         padding-bottom: 30px;
+     }
+     .about-section .timeline .timeline-item:nth-child(odd){
+         padding-right: 15px;
+         text-align: left;
+     }
+     .about-section .skills .skill-item p{
+        font-size: 12px;
+        color: var(--text-black-600);
+        text-transform: capitalize;
+        margin:0 0 10px;
+    }
+    .about-section .skills .skill-item .progress{
+        height: 20px;
+        width: 170px;
+        border-radius: 10px;
+        position: relative;
+    }
+    .about-section .skills .skill-item .progress-bar span{
+        position: absolute;
+        right: 0;
+        top: 5px;
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--text-black-600);
+        margin-top: -40px;
+    }
+     .header .hamburger-btn{
+         left: 510px;
+     }
+     /*Social Links*/
+  .social-links{
+    margin-top: 20px;
+    text-align: center;
+}
+}
+
+@media(max-width: 574px){
+    .home-section .home-img .img-box{
+        max-width: 260px;
+    }
+    .home-section .home-text h2{
+        font-size: 40px;
+    }
+    
+}
